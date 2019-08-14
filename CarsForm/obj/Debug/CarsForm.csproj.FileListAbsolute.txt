@@ -1,0 +1,10 @@
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\bin\Debug\CarsForm.exe.config
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\bin\Debug\CarsForm.exe
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\bin\Debug\CarsForm.pdb
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\obj\Debug\CarsForm.csprojAssemblyReference.cache
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\obj\Debug\CarsForm.Form1.resources
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\obj\Debug\CarsForm.Properties.Resources.resources
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\obj\Debug\CarsForm.csproj.GenerateResource.cache
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\obj\Debug\CarsForm.csproj.CoreCompileInputs.cache
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\obj\Debug\CarsForm.exe
+C:\Users\Nurlan\source\repos\CarsForm\CarsForm\obj\Debug\CarsForm.pdb

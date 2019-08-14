@@ -1,0 +1,9 @@
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\bin\Debug\CarLogin.exe.config
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\bin\Debug\CarLogin.exe
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\bin\Debug\CarLogin.pdb
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\obj\Debug\CarLogin.Form1.resources
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\obj\Debug\CarLogin.Properties.Resources.resources
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\obj\Debug\CarLogin.csproj.GenerateResource.cache
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\obj\Debug\CarLogin.csproj.CoreCompileInputs.cache
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\obj\Debug\CarLogin.exe
+C:\Users\Nurlan\source\repos\CarsForm\CarLogin\obj\Debug\CarLogin.pdb

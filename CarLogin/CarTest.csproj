@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57E30908-6179-408C-9957-0201234A7720}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CarLogin</RootNamespace>
+    <AssemblyName>CarLogin</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCAR.Designer.cs">
+      <DependentUpon>AddCAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllData.Designer.cs">
+      <DependentUpon>AllData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllSearchCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllSearchCars.Designer.cs">
+      <DependentUpon>AllSearchCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarModel\CarList.cs" />
+    <Compile Include="CarModel\CarMarka.cs" />
+    <Compile Include="CarModel\CarsModel.cs" />
+    <Compile Include="CarModel\CarYear.cs" />
+    <Compile Include="CarSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarSearch.Designer.cs">
+      <DependentUpon>CarSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CityModel\City.cs" />
+    <Compile Include="DataBase\DbCars.cs" />
+    <Compile Include="DataBase\DbContext.cs" />
+    <Compile Include="DataBase\DbExtensions.cs" />
+    <Compile Include="DataBase\Table.cs" />
+    <Compile Include="FileManag\FileManager.cs" />
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pathh\ConfigPath.cs" />
+    <Compile Include="SearchModel\SearchCar.cs" />
+    <Compile Include="Session\SessionDb.cs" />
+    <Compile Include="UserModel\UserSignInModel.cs" />
+    <Compile Include="UserRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegister.Designer.cs">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserModel\Users.cs" />
+    <Compile Include="UsersCars\UserCar.cs" />
+    <Compile Include="UserSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserSignIn.Designer.cs">
+      <DependentUpon>UserSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidatorAttr\UserValidator.cs" />
+    <Compile Include="ValidatorAttr\ValidatorEmailAttribute.cs" />
+    <Compile Include="ValidatorAttr\ValidatorNameAttribute.cs" />
+    <Compile Include="ValidatorAttr\ValidatorPasswordAttribute.cs" />
+    <Compile Include="ValidatorAttr\ValidatorSurnameAttribute.cs" />
+    <EmbeddedResource Include="AddCAR.resx">
+      <DependentUpon>AddCAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllData.resx">
+      <DependentUpon>AllData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllSearchCars.resx">
+      <DependentUpon>AllSearchCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarSearch.resx">
+      <DependentUpon>CarSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegister.resx">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserSignIn.resx">
+      <DependentUpon>UserSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\DataSources\AddCAR.datasource" />
+    <None Include="Properties\DataSources\CarLogin.CarRegister.UserRegisterModel.datasource" />
+    <None Include="Properties\DataSources\CarLogin.DataBase.DbContext.datasource" />
+    <None Include="Properties\DataSources\CarLogin.DataBase.DbExtensions.datasource" />
+    <None Include="Properties\DataSources\CarLogin.DataBase.UserDb`1[].datasource" />
+    <None Include="Properties\DataSources\CarLogin.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\CarLogin.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\CarLogin.Seed.SeedCar.datasource" />
+    <None Include="Properties\DataSources\CarLogin.UserModel.CarSearchModel.datasource" />
+    <None Include="Properties\DataSources\CarLogin.UserModel.UserSignInModel.datasource" />
+    <None Include="Properties\DataSources\CarSearch.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\UserRegister.datasource" />
+    <None Include="Properties\DataSources\UserSignIn.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
